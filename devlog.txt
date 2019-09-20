@@ -1,0 +1,5 @@
+# install "phx_new" mix command
+mix archive.install hex phx_new 1.4.10
+
+# create project without database support
+mix phx.new exboard --no-ecto
