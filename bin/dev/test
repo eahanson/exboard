@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+source "bin/_support/step.sh"
+
+step "compiling" "mix compile --force --warnings-as-errors || (mix clean && false)"
+step "running tests" "mix test --color"

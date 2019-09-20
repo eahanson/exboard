@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+source "bin/_support/colors.sh"
+source "bin/_support/check.sh"
+source "bin/_support/step.sh"
+
+section "LOCAL"
+source "bin/dev/doctor-local"
+
+#section "PRODUCTION"
+#source "bin/prod/doctor"

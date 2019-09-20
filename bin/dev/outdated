@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+mix hex.outdated
+(cd assets && npm outdated)
+
+echo ""
+echo "mix deps.update <dep> [<dep> ...]"
+echo "(cd assets && npm update <dep> [<dep> ...])"

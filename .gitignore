@@ -38,3 +38,5 @@ npm-debug.log
 
 .idea
 *.iml
+.envrc
+.doctor.out

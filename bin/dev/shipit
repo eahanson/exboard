@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+bin/dev/update
+#circleci config validate
+bin/dev/test
+git push
